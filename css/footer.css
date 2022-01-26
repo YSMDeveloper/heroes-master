@@ -1,0 +1,106 @@
+.footer__container {
+    background-color: #0B0D12;
+    height: 330px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 5%;
+    border-top: solid 1px #00ADB5 ;
+    align-self: center;
+    justify-self: center;
+}
+
+.footer__col1 {
+    
+    display: grid;
+    grid-template-rows: 30% 1fr 1fr 1fr;
+    height: 90%;
+    font-size: large;
+    font-weight: bold;
+    color: #EEEEEE;
+}
+
+.footer__col2 {
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-template-rows: 30% 1fr;
+    height: 90%;
+    font-size: large;
+    font-weight: bold;
+    color: #EEEEEE;
+}
+
+.footer__col3 {
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-template-rows: 30% 1fr 1fr 1fr;
+    height: 90%;
+    font-size: large;
+    font-weight: bold;
+    color: #EEEEEE;
+}
+
+.footer__col-terms {
+    align-self: center;
+    justify-self: center;
+    cursor: pointer;
+}
+
+.footer__col-nos-titulo {
+    align-self: center;
+    justify-self: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.footer__col-nos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.footer__col-cont {
+    align-self: center;
+    justify-self: center;
+    cursor: pointer;
+}
+
+.footer__opciones:hover {
+    color: #00ADB5;
+    cursor: pointer;
+}
+
+.footer-icono-youtube {
+    color: crimson;
+    font-size: 50px;
+}
+
+.footer-icono-instagram{
+    color: pink;
+    font-size: 50px;
+}
+
+.footer__col-titulo {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.footer__col-nos-opt1 {
+    text-align: center;
+}
+
+a[class="footer"]{
+    text-decoration:none;
+    color: #EEEEEE;
+    font-weight: 5;
+} 
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}

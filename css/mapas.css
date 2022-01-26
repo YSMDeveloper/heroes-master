@@ -1,0 +1,76 @@
+.mapas__container {
+    display: grid;
+    grid-template-rows: 150px auto;
+    background-image: url('https://www.xtrafondos.com/descargar.php?id=3337&vertical=1');
+    background-size: cover;
+}
+
+.mapas__container-titulo {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+
+.mapas__titulo {
+    color: #EEEEEE;
+}
+
+.mapas__container-lista {
+    display: grid;
+    grid-auto-rows: 400px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.mapas__container-lista-mapa {
+    display: grid;
+}
+
+.mapas__container-lista-mapa-carta {
+    align-self: center;
+    justify-self: center;
+    color: #EEEEEE;
+    font-weight: bolder;
+    height: 90%;
+    width: 75%;
+    display: grid;
+    grid-template-rows: 50% 20% 30%;
+    border: 5px #222831 solid;
+    background-color: #0B0D12;
+}
+
+.mapas__container-lista-mapa-carta:hover {
+    border: 5px #00ADB5 solid;
+    cursor: pointer;
+    color: #00ADB5;
+}
+
+.mapas__mapa-carta-img {}
+
+.mapas__mapa-carta-img-estilo {
+    height: 97%;
+    width: 100%;
+}
+
+.mapas__mapa-carta-titulo {
+    align-self: center;
+    justify-self: center;
+}
+
+.mapas__mapa-carta-descripcion {
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+    font-weight: normal;
+}
+
+button[class="mapas__container-lista-mapa-carta"] {
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+}
+
+.mapas-input {
+    display: none;
+}

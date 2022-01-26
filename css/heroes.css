@@ -1,0 +1,178 @@
+.heroes__container {
+    background-image: url('https://www.xtrafondos.com/descargar.php?id=3337&vertical=1');
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 150px 50px auto;
+    color: #EEEEEE;
+}
+
+.heroes__container-titulo {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+
+.heroes__titulo {
+    color: #EEEEEE;
+}
+
+.heroes__container-filtros {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-top: 5px #222831 solid;
+    border-bottom: 5px #222831 solid;
+    background-color: #0B0D12;
+}
+
+.heroes__container-filtros-ru {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.heroes__container-lista {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    min-height: 700px;
+}
+
+.heroes__container-lista-heroes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: auto;
+    gap: 10px;
+    margin: 5%;
+}
+
+.heroes__lista-img {
+    align-self: center;
+    justify-self: center;
+}
+
+.heroes__lista-apartado {
+    height: 150px;
+    width: 150px;
+}
+
+.heroes__lista-apartado-btn {
+    height: 100%;
+    width: 100%;
+    border: #0B0D12 solid 5px;
+    border-radius: 50%;
+}
+
+.heroes__lista-apartado-img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.heroes__lista-apartado-btn:hover {
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 0px 0px 2px, rgba(240, 46, 170, 0.3) 4px 4px, rgba(240, 46, 170, 0.2) 0px 0px 0px 8px, rgba(240, 46, 170, 0.1) 0px 0px 0px 12px, rgba(240, 46, 170, 0.05) 0px 0px 0px 17px;
+ 
+}
+
+.heroes__lista-img-estilo:hover {
+    border: #00ADB5 solid 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 5px #0B0D12;
+}
+
+.heroes__container-lista-perfil {
+    display: grid;
+}
+
+.heroes__container-lista-perfil-carta {
+    height: 600px;
+    width: 90%;
+    border: 5px #222831 solid;
+    display: grid;
+    grid-template-rows: 50% 10% 20% 20%;
+    align-self: center;
+    justify-self: center;
+    box-shadow: 0px 0px 5px 5px #0B0D12;
+    background-color: #0B0D12;
+}
+
+.heroes__lista-centrado {
+    align-self: center;
+    justify-self: center;
+}
+
+.heroes__container-filtros {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    box-shadow: 0px 0px 5px 5px #0B0D12;
+}
+
+.heroes__container-filtros-rol-opciones {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    grid-auto-rows: auto;
+}
+
+.heroes__container-filtros-rol-opciones-op1 {
+    align-self: center;
+    justify-self: center;
+    font-weight: bold;
+}
+
+.heroes__container-filtros-rol-opciones-op1:hover {
+    color: #00ADB5;
+    cursor: pointer;
+}
+
+.heroes__perfil-img {
+    height: 100%;
+    width: 100%;
+}
+
+.heroes__lista-perfil-carta-titulo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.heroes__lista-perfil-carta-descripcion {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.heroes__lista-perfil-carta-btn {
+    height: 100%;
+    width: 100%;
+    background-color: #00ADB5;
+    color: #EEEEEE;
+}
+
+button[class="heroes__lista-apartado-btn"] {
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+}
+
+form[class="heroes__lista-perfil-carta-mas"] {
+    margin: 0;
+    font: inherit;
+    cursor: pointer;
+}
+
+.heroes-input {
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .heroes__container {
+        grid-template-rows: 150px auto;
+    }
+    /* .heroes__container-filtros {
+        display: none;
+      } */
+    .heroes__container-lista {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .heroes__container-lista-perfil {
+        display: none;
+    } 
+}

@@ -1,0 +1,131 @@
+.vermapas__container {
+    background-color: black;
+    display: grid;
+    grid-template-rows: 150px 1fr 1fr 1fr;
+}
+
+.vermapas__container-titulo {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+
+.vermapas__container {
+    color: #eeeeee;
+}
+
+.vermapas__container-mapas {
+    display: grid;
+}
+.vermapas__container-descripcion {
+   
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    display: grid;
+}
+
+
+.vermapas__containerdescripcion {
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    font-size: 16px;
+   
+}
+.vermapas__mapas-carta-img-estilo {
+    border: 5px #222831 solid;
+    align-self: center;
+    justify-self: center;
+    box-shadow: 0px 0px 5px 5px #0b0d12;
+}
+
+.vermapas__container-objetivos {
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    display: grid;
+    grid-template-rows: 15% 35% 15% 35%;
+}
+
+.vermapas__titulo {
+    align-self: center;
+    justify-self: center;
+    font-size: 50px;
+}
+
+.vermapas__titulo-letra {
+    color: #eeeeee;
+    font-size: 50px;
+}
+
+.vermapas__container-lista {
+    display: grid;
+    grid-auto-rows: 350px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    background-color: black;
+}
+
+.vermapas__container-lista-mapa {
+    display: grid;
+}
+
+.vermapas__container-lista-mapa-carta {
+    align-self: center;
+    justify-self: center;
+    background-color: black;
+    color: #eeeeee;
+    font-weight: bold;
+    height: 90%;
+    width: 90%;
+    display: grid;
+    border: 5px #222831 solid;
+}
+
+.vermapas__mapa-carta-img-estilo {
+    height: 100%;
+    width: 100%;
+}
+
+.vermapas__mapa-carta-titulo {
+    align-self: center;
+    justify-self: center;
+    font-size: 25px;
+}
+
+.vermapas__mapa-carta-descripcion {
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+}
+
+.vermapas__container-lista-video {
+    display: grid;
+    grid-auto-rows: 400px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    background-color: black;
+}
+
+.vermapas__tabla-imagen {
+    background-color: #222831;
+    font-weight: bold;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.vermapas__container-imagen {
+    display: grid;
+}
+
+.vermapas__2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.vermapas__tabla-mapas-imagen-diseño {
+    height: 100%;
+    width: 100%;
+}

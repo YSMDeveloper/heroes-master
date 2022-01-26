@@ -1,0 +1,169 @@
+.navbar {
+    background-color: #0B0D12;
+    color: #EEEEEE;
+    display: grid;
+    height: 70px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+.navbar-menu {
+    display: none;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Estilos logo / */
+
+.navbar-logo {
+    align-self: center;
+    color: #EEEEEE;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar-logo:hover {
+    cursor: pointer;
+}
+
+.navbar-logo-titulo {
+    align-self: center;
+    justify-self: center;
+}
+
+
+/* / Estilos item heroes / */
+
+.navbar-heroes {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-heroes-titulo {
+    align-self: center;
+    justify-self: center;
+}
+
+
+/* / Estilos item mapas / */
+
+.navbar-mapas {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-mapas-titulo {
+    align-self: center;
+    justify-self: center;
+}
+
+.navbar-heroes-titulo {
+    align-self: center;
+    justify-self: center;
+}
+
+
+/* / Estilos item streamer / */
+
+.navbar-streamers {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-streamers-titulo {
+    align-self: center;
+    justify-self: center;
+}
+
+
+/* / Estilos item Tierlist / */
+
+.navbar-tierlist {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-tierlist-titulo {
+    align-self: center;
+    justify-self: center;
+}
+
+
+/* / Estilos item Salir / */
+
+.navbar-salir {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-salir-titulo {
+    align-self: center;
+    justify-self: center;
+}
+
+
+/* / Estilos hover / */
+
+.navbar-hover-secundario:before {
+    background-color: #00ADB5;
+    cursor: pointer;
+}
+
+
+/* / Estilos hover */
+
+.navbar-hover-primario:hover {
+    cursor: pointer;
+}
+
+
+/* QUITAR DECORACION A HIPERVINCULO */
+
+.letra {
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+.letra:hover {
+    text-decoration: none;
+    color: #00ADB5;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .navbar {
+        grid-template-columns: 90% 10%;
+    }
+
+    .navbar-menu {
+        display: block;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .navbar-ocultar{
+        display: none;
+    }
+}

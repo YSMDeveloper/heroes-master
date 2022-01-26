@@ -1,0 +1,59 @@
+.streamer__container {
+  background-image: url('https://www.xtrafondos.com/wallpapers/vertical/la-tierra-y-la-luna-en-el-espacio-6019.jpg');
+  background-size: cover;
+  display: grid;
+  grid-template-rows: 150px auto;
+}
+
+.streamer__container-titulo {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+
+.streamer__titulo {
+  color: #eeeeee;
+}
+
+.streamer__container-lista {
+  display: grid;
+  grid-auto-rows: 500px;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+
+}
+
+.streamer__container-lista-video {
+  display: grid;
+}
+
+.streamer__container-lista-video-carta {
+  align-self: center;
+  justify-self: center;
+  border: 5px #222831 solid;
+  color: #eeeeee;
+  font-weight: bold;
+  height: 90%;
+  width: 90%;
+  display: grid;
+  grid-template-rows: 80% 15%;
+  box-shadow: 0px 0px 5px 5px #0B0D12;
+    background-color: #0B0D12;
+}
+
+.streamer__streamer-carta-img-estilo {
+  height: 97%;
+  width: 100%;
+}
+
+.streamer__streamer-carta-titulo {
+  align-self: center;
+  justify-self: center;
+ 
+}
+
+
+.Layout-sc-nxg1ff-0 {
+  display: none;
+}

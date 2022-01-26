@@ -1,0 +1,154 @@
+.banner__container {
+    background-color: hotpink;
+    height: 500px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    box-sizing: border-box;
+}
+
+.banner__container-contenido-flechaizq {
+    align-self: center;
+    justify-self: center;
+    font-size: 600%;
+    color: #00ADB5;
+}
+
+.banner__container-contenido-centro {
+    display: grid;
+    grid-template-rows: 90% 10%;
+}
+
+.banner__container-contenido-flechader {
+    align-self: center;
+    justify-self: center;
+    font-size: 600%;
+    color: #00ADB5;
+}
+
+.banner__container-contenido-centro-body {
+    overflow: hidden;
+}
+
+.banner__container-contenido-centro-pie {}
+
+
+/* LOADINGEFFECT */
+
+.container-loading {
+    position: relative;
+    width: 100%;
+    padding: 15px 40px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.Loading {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 15px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.Loading:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 4px;
+    animation: load 9s infinite;
+}
+
+@keyframes load {
+    0% {
+        width: 0;
+        background: #a28089;
+    }
+    12.5% {
+        width: 12.5%;
+        background: #a0d2eb;
+    }
+    25% {
+        width: 25%;
+        background: #ffa8b6;
+    }
+    37.5% {
+        width: 37.5%;
+        background: #d0bdf4;
+    }
+    50% {
+        width: 50%;
+        background: #494d5f;
+    }
+    62.5% {
+        width: 62.5%;
+        background: #ffa8b6;
+    }
+    75% {
+        width: 75%;
+        background: #d0bdf4;
+    }
+    87.5% {
+        width: 87.5%;
+        background: #494d5f;
+    }
+    100% {
+        width: 100%;
+        background: #494d5f;
+    }
+}
+
+.banner__container-contenido-centro-body ul {
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+    width: 400%;
+}
+
+.banner__container-contenido-centro-body li {
+    width: 100%;
+    list-style: none;
+}
+
+.banner__container-contenido-centro-body img {
+    width: 50%;
+    height: 79%;
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: 0;
+    }
+    25% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -100%;
+    }
+    50% {
+        margin-left: -200%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    75% {
+        margin-left: -300%;
+    }
+    100% {
+        margin-left: -300%;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .slider,
+    .slider ul,
+    .slider img {
+        height: 100vh;
+    }
+}

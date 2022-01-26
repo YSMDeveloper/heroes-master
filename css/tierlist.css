@@ -1,0 +1,92 @@
+.tierlist__container {
+    background-image: url('https://www.xtrafondos.com/wallpapers/vertical/la-tierra-y-la-luna-en-el-espacio-6019.jpg');
+  background-size: cover;
+    display: grid;
+    width: 100%;
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr;
+}
+
+.tierlist__container-titulo {
+    
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tierlist__titulo-tier {
+    color: #eeeeee;
+    text-align:center;
+  
+}
+
+.tierlist__container-tiers {
+    
+    font-size: 25px;
+    font-weight: bold;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 50px 150px 1fr;
+}
+
+.tierlist__titulo-tiers {
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.tierlist__titulo-letra {
+    color: #eeeeee;
+ 
+}
+
+.tierlist__descriccion-tiers {
+    color: #eeeeee;
+    text-align:center;
+}
+
+.tierlist__tabla-tiers {
+     
+    font-size: 18px;
+    font-weight: bold;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.4fr 1fr;
+}
+
+.tierlist__tabla-titulo {
+    align-self: center;
+    justify-self: center;
+    color: #eeeeee;
+}
+
+.tierlist__tabla-titulo-letra {
+    font-weight: bold;
+   
+    color: #eeeeee;
+    text-align: center;
+}
+
+.tierlist__tabla-heroe {
+   
+}
+
+.tierlist__tabla-heroe-imagen-conteiner {
+    gap: 10px;
+    display: grid;
+}
+
+.tierlist__tabla-heroe-imagen {
+    display: grid;
+    grid-auto-rows: 90px;
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+}
+
+.tierlist__tabla-heroe-imagen-diseño {
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    align-self: center;
+    justify-self: center;
+   
+}

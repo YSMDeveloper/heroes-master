@@ -1,0 +1,149 @@
+.home__container {
+    background-color: #181620;
+    display: grid;
+
+    grid-template-rows:  350px 350px 350px;
+}
+
+.home__container-titulo {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.home__titulo {
+    color: #eeeeee;
+}
+
+.home__container-guia {
+    font-weight: bold;
+    text-align: center;
+    display: grid;
+    width: 100vw;
+    grid-template-rows: 25% 50% 25%;
+}
+
+.home__guia {
+    font-size: 50px;
+    color: #eeeeee;
+    align-self: center;
+    justify-self: center;
+}
+
+.home__guia-descripcion {
+    color: #eeeeee;
+    align-self: center;
+    justify-self: center;
+}
+
+.home__guia-boton {
+    color: #eeeeee;
+    align-self: center;
+    align-content: center;
+    height: 60%;
+}
+
+.boton {
+    color: #eeeeee;
+    width: 15%;
+    height: 100%;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+}
+
+.home__container-heroes {
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-image: url("https://images4.alphacoders.com/607/thumb-1920-607189.jpg");
+    font-weight: bold;
+    text-align: center;
+    display: grid;
+    /* width: 100vw; */
+    grid-template-rows: 25% 50% 25%;
+}
+
+.home__heroes {
+    font-size: 50px;
+    color: #eeeeee;
+    align-self: center;
+    justify-self: center;
+}
+
+.home__heroes-descripcion {
+    color: #eeeeee;
+    align-self: center;
+    justify-self: center;
+}
+
+.home__heroes-boton {
+    color: #eeeeee;
+    align-self: center;
+    align-content: center;
+    height: 60%;
+}
+
+.home__container-campo {
+    border-top: solid 5px #0B0D12 ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://images2.alphacoders.com/759/thumb-1920-759340.jpg");
+    font-weight: bold;
+    text-align: center;
+    display: grid;
+    /* width: 100vw; */
+    grid-template-rows: 25% 50% 25%;
+}
+
+.home__campo {
+    font-size: 50px;
+    color: #eeeeee;
+    align-self: center;
+    justify-self: center;
+}
+
+.home__campo-descripcion {
+    color: #eeeeee;
+    align-self: center;
+    justify-self: center;
+}
+
+.home__campo-boton {
+    color: #eeeeee;
+    align-self: center;
+    align-content: center;
+    height: 60%;
+}
+
+.home__container-streamer {
+    border-top: solid 5px #0B0D12 ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://images7.alphacoders.com/531/531546.jpg");
+    font-weight: bold;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 25% 50% 25%;
+    /* width: 100vw; */
+}
+
+.home__streamer {
+    font-size: 50px;
+    color: #eeeeee;
+    align-self: center;
+    justify-self: center;
+}
+
+.home__streamer-descripcion {
+    color: #eeeeee;
+    align-self: center;
+    justify-self: center;
+}
+
+.home__streamer-boton {
+    color: #eeeeee;
+    align-self: center;
+    align-content: center;
+    height: 60%;
+}
