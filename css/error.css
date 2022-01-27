@@ -1,0 +1,42 @@
+.error__container { 
+    display: grid;
+    height: 600px;
+    background-image: url('https://www.xtrafondos.com/descargar.php?id=3337&vertical=1');
+    background-size: cover;
+    color: #EEEEEE;
+}
+
+.error__mensaje {
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    grid-template-rows: 20% 70% 10%;
+    height: 70%;
+    width: 50%;
+    border: 5px #222831 solid;
+    background-color: #0B0D12;
+    box-shadow: 0px 0px 5px 5px #0B0D12;
+}
+
+.error__mensaje-header {
+    font-size: 50px;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.error__mensaje-body {
+    font-size: 30px;
+    align-self: center;
+    justify-self: center;
+    margin: 2%;
+    text-align: center;
+}
+
+.error__mensaje-pie {
+    font-size: 15px;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    text-transform: uppercase;
+}
