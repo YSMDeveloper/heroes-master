@@ -18,7 +18,7 @@
         <div class="streamer__container-lista-video">
             <div class="streamer__container-lista-video-carta">
                 <div class="streamer__streamer-carta-img">
-                    <div id="twitch-embed"></div>
+                    <div id="twitch-embed" loading="lazy"></div>
                 </div>
                 <div class="streamer__streamer-carta-titulo">
                     fanhots
@@ -30,7 +30,7 @@
         <div class="streamer__container-lista-video">
             <div class="streamer__container-lista-video-carta">
                 <div class="streamer__streamer-carta-img">
-                    <div id="twitch-embed2"></div>
+                    <div id="twitch-embed2" loading="lazy"></div>
                 </div>
                 <div class="streamer__streamer-carta-titulo">
                     followgrubby
@@ -43,7 +43,7 @@
         <div class="streamer__container-lista-video">
             <div class="streamer__container-lista-video-carta">
                 <div class="streamer__streamer-carta-img">
-                    <div id="twitch-embed3"></div>
+                    <div id="twitch-embed3" loading="lazy"></div>
                 </div>
                 <div class="streamer__streamer-carta-titulo">
                 Pumiich
@@ -57,7 +57,7 @@
         <div class="streamer__container-lista-video">
             <div class="streamer__container-lista-video-carta">
                 <div class="streamer__streamer-carta-img">
-                    <div id="twitch-embed4"></div>
+                    <div id="twitch-embed4" loading="lazy"></div>
                 </div>
                 <div class="streamer__streamer-carta-titulo">
                 kloneetv
@@ -71,7 +71,7 @@
         <div class="streamer__container-lista-video">
             <div class="streamer__container-lista-video-carta">
                 <div class="streamer__streamer-carta-img">
-                    <div id="twitch-embed5"></div>
+                    <div id="twitch-embed5" loading="lazy"></div>
                 </div>
                 <div class="streamer__streamer-carta-titulo">
                 BriiStarFall
@@ -85,7 +85,7 @@
         <div class="streamer__container-lista-video">
             <div class="streamer__container-lista-video-carta">
                 <div class="streamer__streamer-carta-img">
-                    <div id="twitch-embed6"></div>
+                    <div id="twitch-embed6" loading="lazy"></div>
                 </div>
                 <div class="streamer__streamer-carta-titulo">
                 극택이88 (keuktaek22)
@@ -99,7 +99,7 @@
         <div class="streamer__container-lista-video">
             <div class="streamer__container-lista-video-carta">
                 <div class="streamer__streamer-carta-img">
-                    <div id="twitch-embed7"></div>
+                    <div id="twitch-embed7" loading="lazy"></div>
                 </div>
                 <div class="streamer__streamer-carta-titulo">
                 Shigity
@@ -113,7 +113,7 @@
         <div class="streamer__container-lista-video">
             <div class="streamer__container-lista-video-carta">
                 <div class="streamer__streamer-carta-img">
-                    <div id="twitch-embed8"></div>
+                    <div id="twitch-embed8" loading="lazy"></div>
                 </div>
                 <div class="streamer__streamer-carta-titulo">
                 hamisholy
@@ -126,7 +126,7 @@
         </div><div class="streamer__container-lista-video">
             <div class="streamer__container-lista-video-carta">
                 <div class="streamer__streamer-carta-img">
-                    <div id="twitch-embed9"></div>
+                    <div id="twitch-embed9" loading="lazy"></div>
                 </div>
                 <div class="streamer__streamer-carta-titulo">
                 AuraLuna1

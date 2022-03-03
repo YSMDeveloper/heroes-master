@@ -54,28 +54,25 @@ $universo = 'Todos';
             </div>   
         </div>
 </form>
+    
     <div class="heroes__container-lista">
-        <div id="heroeslista" class="heroes__container-lista-heroes">
-
-        </div>
-        <div class="heroes__container-lista-perfil">
-            <div class="heroes__container-lista-perfil-carta">
-                
-                    <div class="heroes__lista-perfil-carta-img">
-                        <img id="img"  class="heroes__lista-apartado-img" src="https://bnetcmsus-a.akamaihd.net/cms/blog_header/iu/IU9RX8HPGW131605649378015.jpg"></img>
-                    </div>
-                    <div id="nombre" class="heroes__lista-perfil-carta-titulo heroes__lista-centrado">
-                        Hogger
-                    </div>
-                    <div id="subtitulo" class="heroes__lista-perfil-carta-descripcion heroes__lista-centrado">
-                        Líder de los gnolls Zarparrío
-                    </div>
-                    <form action="ver-heroe.php" method="GET" class="heroes__lista-perfil-carta-mas">
-                        <input type="hidden" id="idHeroe" name="idh" value="1"></input>
-                        <button type="submit" class="heroes__lista-perfil-carta-btn">Mas Información</button>
-       
-                    </form>
+    <div class="wrapper">
+        <div class="heroes__container-lista-encabezado">
+            <div class="heroes__encabezado-img">
+                <img id="img" class="heroes__encabezado-img-estilo" src="https://static.heroesofthestorm.com/gd/6f704aac5aa2f1cfad17ee130347fb3b/heroes/hogger/circleIcon.png"></img>
             </div>
+            <div  class="heroes__encabezado-body">
+                <div id="nombre" class="heroes__lista-centrado">
+                    Hogger
+                </div>
+            </div>
+            <form action="ver-heroe.php" method="GET" class="heroes__encabezado-footer">
+                <input type="hidden" id="idHeroe" name="idh" value="1"></input>
+                <button type="submit" class="heroes__lista-perfil-carta-btn"><i class="fas fa-arrow-right"></i></button>
+            </form>
+        </div>
+    </div>
+        <div id="heroeslista" class="heroes__container-lista-heroes">
         </div>
     </div>
 </div>
@@ -92,7 +89,7 @@ $universo = 'Todos';
             $('#nombre').html(res.nombre);
             $('#subtitulo').html(res.subtitulo);    
             console.log(document.getElementById("idHeroe").value);       
-            document.getElementById("img").src=res.img_fondo;
+            document.getElementById("img").src=res.img;
         })
         
     }

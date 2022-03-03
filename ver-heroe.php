@@ -5,32 +5,45 @@
 <?php include("template/banner.php");?>
 <?php 
 include("admin/config/db.php");
-$id = $_GET['idh'];
 
-$sentenciaSQL= $conexion->prepare("SELECT * FROM heroes WHERE id_heroe=:id");
-$sentenciaSQL->bindParam(':id',$id);
-$sentenciaSQL->execute();
-$heroe=$sentenciaSQL->fetch(PDO::FETCH_LAZY);
-
-$sentenciaSQL2= $conexion->prepare("SELECT * FROM habilidades WHERE heroe_id=:id");
-$sentenciaSQL2->bindParam(':id',$id);
-$sentenciaSQL2->execute();
-$listaHabilidades=$sentenciaSQL2->fetchAll(PDO::FETCH_ASSOC);
-
-$sentenciaSQL3= $conexion->prepare("SELECT * FROM heroica WHERE heroe_id=:id");
-$sentenciaSQL3->bindParam(':id',$id);
-$sentenciaSQL3->execute();
-$listaHeroicas=$sentenciaSQL3->fetchAll(PDO::FETCH_ASSOC);
-
-$nombreHeroe = $heroe['nombre'];
-$descripcionHeroe = $heroe['descripcion'];
-$danoHeroe = $heroe['dano'];
-$sobrevivenciaHeroe = $heroe['sobrevivencia'];
-$dificultadHeroe = $heroe['dificultad'];
-$utilidadHeroe = $heroe['utilidad'];
-$imgHeroe = $heroe['img'];
+if($_GET){
+    if (isset($_GET['idh'])) {
+        if ($_GET['idh']) {
+            $id = $_GET['idh'];
+            $sentenciaSQL= $conexion->prepare("SELECT * FROM heroes WHERE id_heroe=:id");
+            $sentenciaSQL->bindParam(':id',$id);
+            $sentenciaSQL->execute();
+            $heroe=$sentenciaSQL->fetch(PDO::FETCH_LAZY);
+            
+            $sentenciaSQL2= $conexion->prepare("SELECT * FROM habilidades WHERE heroe_id=:id");
+            $sentenciaSQL2->bindParam(':id',$id);
+            $sentenciaSQL2->execute();
+            $listaHabilidades=$sentenciaSQL2->fetchAll(PDO::FETCH_ASSOC);
+            
+            $sentenciaSQL3= $conexion->prepare("SELECT * FROM heroica WHERE heroe_id=:id");
+            $sentenciaSQL3->bindParam(':id',$id);
+            $sentenciaSQL3->execute();
+            $listaHeroicas=$sentenciaSQL3->fetchAll(PDO::FETCH_ASSOC);
+            
+            $nombreHeroe = $heroe['nombre'];
+            $descripcionHeroe = $heroe['descripcion'];
+            $danoHeroe = $heroe['dano'];
+            $sobrevivenciaHeroe = $heroe['sobrevivencia'];
+            $dificultadHeroe = $heroe['dificultad'];
+            $utilidadHeroe = $heroe['utilidad'];
+            $imgHeroe = $heroe['img'];
+        }else{
+            header("Location:404.php");
+        }
+        
+    }else{
+        header("Location:404.php");
+    }
+    
+}else{
+    header("Location:404.php");
+}
 ?>
-
     <div class="ver-heroe__container">
         <div class="ver-heroe__info">
             <div class="ver-heroe__info-nombre ver-heroe__centrado">
@@ -160,6 +173,5 @@ $imgHeroe = $heroe['img'];
                 </div> 
             </div>
         </div> 
-    </div>
-    
+    </div> 
 <?php include("template/pie.php");?>

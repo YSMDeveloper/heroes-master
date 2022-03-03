@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,11 +14,8 @@
     
     <title>Heroes</title>
 </head>
-
 <body>
-
     <?php $url="http://".$_SERVER['HTTP_HOST']."/heroes-php" ?>
-
     <div class="container">
         <div class="navbar">
             <div class="navbar-logo ">
@@ -48,8 +44,14 @@
                 </div>
             </div>
             <div class="navbar-menu">
-                <div class="navbar-tierlist-titulo navbar-hover-secundario">
-                    <a class="letra" href="http://localhost/heroes-master/tier_list.php"> <i class="fas fa-bars"></i> </a>
+                <div class="navbar-tierlist-titulo navbar-hover-secundario dropdown">
+                    <i class="fas fa-bars "></i>
+                    <div class="dropdown-content">
+                        <a href="http://localhost/heroes-master/heroes.php">Heroes</a>
+                        <a href="http://localhost/heroes-master/mapas.php">Mapas</a>
+                        <a href="http://localhost/heroes-master/streamers.php">Streamers</a>
+                        <a href="http://localhost/heroes-master/tier_list.php">Tier List</a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -7,51 +7,73 @@
 }
 
 .tierlist__container-titulo {
-    
+    color: #eeeeee;
     font-size: 50px;
     font-weight: bold;
     text-align: center;
+    align-self: center;
+    justify-self: center;
 }
 
 .tierlist__titulo-tier {
     color: #eeeeee;
-    text-align:center;
-  
+    text-align: center;
+    align-self: center;
+    justify-self: center;
 }
 
 .tierlist__container-tiers {
-    
+     
     font-size: 25px;
     font-weight: bold;
-    width: 100vw;
+    
     display: grid;
     grid-template-rows: 50px 150px 1fr;
 }
-
+.tierlist__titulo{
+    color: #eeeeee;
+}
 .tierlist__titulo-tiers {
-    align-items: center;
-    justify-items: center;
-    background-color: rgb(0, 0, 0);
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+  
 }
 
 .tierlist__titulo-letra {
     color: #eeeeee;
  
 }
-
+.tierlist__container-subtitulo{
+    background-color:   #1A1A40;
+    height:100%;
+    align-self: center;
+     
+    display: grid;
+}
+.tierlist__container-descripcion{
+    height:100%;
+    align-self: center;
+     
+    display: grid;
+    background-color: #270082
+    ;
+}
 .tierlist__descriccion-tiers {
     color: #eeeeee;
     text-align:center;
+    align-self: center;
+    justify-self: center;
+    margin: 3px;
 }
-
 .tierlist__tabla-tiers {
-     
+     background-color: #750550;
     font-size: 18px;
     font-weight: bold;
-    width: 100vw;
+    
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: 0.4fr 1fr;
+    grid-template-columns:  1fr;
 }
 
 .tierlist__tabla-titulo {
@@ -67,13 +89,13 @@
     text-align: center;
 }
 
-.tierlist__tabla-heroe {
-   
-}
+
 
 .tierlist__tabla-heroe-imagen-conteiner {
     gap: 10px;
     display: grid;
+    margin: 3px;
+
 }
 
 .tierlist__tabla-heroe-imagen {
@@ -88,5 +110,7 @@
     border-radius: 50%;
     align-self: center;
     justify-self: center;
+    border: #0B0D12 solid 3px;
+ 
    
 }

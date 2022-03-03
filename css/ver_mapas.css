@@ -1,7 +1,9 @@
+
 .vermapas__container {
     background-color: black;
-    display: grid;
-    grid-template-rows: 150px 1fr 1fr 1fr;
+    background-image: url('https://www.xtrafondos.com/descargar.php?id=3337&vertical=1');
+    background-size: cover;
+    grid-template-rows: 4% 1fr 10% 1fr 1fr;
 }
 
 .vermapas__container-titulo {
@@ -10,8 +12,15 @@
     text-align: center;
     align-self: center;
     justify-self: center;
+    padding: 20px;
 }
-
+.vermapas__container-titulo-letra{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
 .vermapas__container {
     color: #eeeeee;
 }
@@ -21,7 +30,7 @@
 }
 .vermapas__container-descripcion {
    
-    background-color: rgb(0, 0, 0);
+    margin: 50px;
     font-weight: bold;
     display: grid;
 }
@@ -32,7 +41,7 @@
     align-self: center;
     justify-self: center;
     font-size: 16px;
-   
+    margin-top: 25px;
 }
 .vermapas__mapas-carta-img-estilo {
     border: 5px #222831 solid;
@@ -42,9 +51,9 @@
 }
 
 .vermapas__container-objetivos {
-    background-color: rgb(0, 0, 0);
+    
     font-weight: bold;
-    display: grid;
+  
     grid-template-rows: 15% 35% 15% 35%;
 }
 
@@ -52,11 +61,15 @@
     align-self: center;
     justify-self: center;
     font-size: 50px;
+    display: grid;
 }
 
 .vermapas__titulo-letra {
     color: #eeeeee;
     font-size: 50px;
+    align-self: center;
+    justify-self: center;
+
 }
 
 .vermapas__container-lista {
@@ -82,9 +95,12 @@
     border: 5px #222831 solid;
 }
 
-.vermapas__mapa-carta-img-estilo {
-    height: 100%;
-    width: 100%;
+.vermapas__mapas-carta-img-estilo {
+    border: 5px #222831 solid;
+    align-self: center;
+    justify-self: center;
+    box-shadow: 0px 0px 5px 5px #0b0d12;
+    max-width: 90%;
 }
 
 .vermapas__mapa-carta-titulo {
@@ -106,24 +122,26 @@
     background-color: black;
 }
 
+
+
+
 .vermapas__tabla-imagen {
     background-color: #222831;
-    font-weight: bold;
+    
+    width: 100%;
     display: grid;
-    gap: 5px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+   
+}
+.vermapas__1{
+    display: grid;
+     height: 100%;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+
 }
 
-.vermapas__container-imagen {
-    display: grid;
-}
 
-.vermapas__2 {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    gap: 5px;
-}
 
 .vermapas__tabla-mapas-imagen-diseño {
     height: 100%;

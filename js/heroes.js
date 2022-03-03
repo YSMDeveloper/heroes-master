@@ -36,7 +36,7 @@ function get_users()
              let row = ""+
                     "<div class='heroes__lista-apartado'> "+  
                     "<button id='enviar' onclick='cargarheroes("+User.id_heroe+");' class='heroes__lista-apartado-btn' > " +
-                        "<img class='heroes__lista-apartado-img' src='"+User.img+"'></img> " +
+                        "<img class='heroes__lista-apartado-img' src='"+User.img+"' loading='lazy'></img> " +
                     "</button> " +
                     "</div>";  
 

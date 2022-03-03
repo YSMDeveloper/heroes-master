@@ -1,0 +1,4 @@
+RewriteEngine on
+
+
+ErrorDocument 404 http://localhost/heroes-master/404.php

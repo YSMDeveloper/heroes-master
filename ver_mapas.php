@@ -1,5 +1,5 @@
 <head>
-    <link href="css\ver_mapas.css" rel="stylesheet" type="text/css">
+<link href="css\ver_mapas.css" rel="stylesheet" type="text/css">
 </head>
 <?php 
 include("admin/config/db.php");
@@ -22,8 +22,8 @@ if(isset($_POST['submit'])){
 
 ?>
 <div class="vermapas__container">
-    <div class="vermapas__container-titulo">
-        <div class="vermapas__container">
+<div class="vermapas__container-titulo">
+        <div class="vermapas__container-titulo-letra">
             <?php echo $mapa['nombre']; ?>
         </div>
     </div>
@@ -33,6 +33,7 @@ if(isset($_POST['submit'])){
 
 
     </div>
+     
     <div class="vermapas__container-descripcion">
         <div class="vermapas__titulo">
 
@@ -45,16 +46,12 @@ if(isset($_POST['submit'])){
             </div>
         </div>
         <div class="vermapas__containerdescripcion">
-        gggfkfffffffffffffffffffffffflllllllllllllllllllllllll
-        gggfkfffffffffffffffffffffffflllllllllllllllllllllllll
-        gggfkfffffffffffffffffffffffflllllllllllllllllllllllll
-        gggfkfffffffffffffffffffffffflllllllllllllllllllllllll
-        gggfkfffffffffffffffffffffffflllllllllllllllllllllllll
-    
+        <?php echo $mapa['descripcion']; ?>
 
 
             </div>
     </div>
+
 
     <div class="vermapas__container-objetivos">
         <div class="vermapas__titulo">
@@ -86,33 +83,18 @@ if(isset($_POST['submit'])){
         </div>
 
     </div>
+
     <div class="vermapas__tabla-imagen">
-        <div class="vermapas__container-imagen">
-
-            <img class="vermapas__tabla-mapas-imagen-diseño" src="https://static.heroesofthestorm.com/images/battlegrounds/maps/garden-of-terror/screenshots/screenshot-1-5a32cff6f5.jpg">
-
-
-
-
-        </div>
-        <div class="vermapas__2">
-            <img class="vermapas__tabla-mapas-imagen-diseño" src="https://static.heroesofthestorm.com/images/battlegrounds/maps/garden-of-terror/screenshots/screenshot-2-9d68b7877b.jpg">
-
-
+       <div class= "vermapas__1">
+       <img class="vermapas__tabla-mapas-imagen-diseño" src="https://static.heroesofthestorm.com/images/battlegrounds/maps/garden-of-terror/screenshots/screenshot-2-9d68b7877b.jpg">
             <img class="vermapas__tabla-mapas-imagen-diseño" src="https://static.heroesofthestorm.com/images/battlegrounds/maps/garden-of-terror/screenshots/screenshot-3-c8b9f80540.jpg">
-
-
-
+        </div>
+        <div class="vermapas__1">
+            
             <img class="vermapas__tabla-mapas-imagen-diseño" src="https://static.heroesofthestorm.com/images/battlegrounds/maps/garden-of-terror/screenshots/screenshot-4-85bb023543.jpg">
-
-
             <img class="vermapas__tabla-mapas-imagen-diseño" src="https://static.heroesofthestorm.com/images/battlegrounds/maps/garden-of-terror/screenshots/screenshot-5-5da244902b.jpg">
         </div>
     </div>
-
-
-
-
 
 </div>
 

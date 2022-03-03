@@ -26,19 +26,14 @@ if($query_values)
     $final_query.= " ".implode(" AND ", $queries);
     $final_query2.= " WHERE ";
     $final_query2.= " ".implode(" OR ", $queries);
-
-
 }
-
 $query = "SELECT * FROM heroes".$final_query;
 // if($query == "SELECT * FROM heroes WHERE   rol_id = '' AND  universo_id = ''"){
 if(strpos($query, "rol_id = ''") || strpos($query, "universo_id = ''")){
     if(strpos($query, "rol_id = ''") && strpos($query, "universo_id = ''")){
         $query = "SELECT * FROM heroes";
         $heroes= $conexion->query($query);
-
-        $heroe_list = [];
-        
+        $heroe_list = [];     
         while($heroe = $heroes->fetch(PDO::FETCH_ASSOC))
         {
             $heroe_list[$heroe["id_heroe"]] = $heroe;
@@ -64,8 +59,6 @@ if(strpos($query, "rol_id = ''") || strpos($query, "universo_id = ''")){
         $heroe_list[$heroe["id_heroe"]] = $heroe;
     }
 }
-
-
 
 header('Content-Type: application/json');
 
